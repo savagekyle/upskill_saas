@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
@@ -36,6 +37,9 @@ gem 'font-awesome-sass', '4.6.2'
 
 # Use Hirb for better database table display in console
 gem 'hirb', '0.7.3'
+
+gem 'nokogiri'
+gem 'rspec'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
